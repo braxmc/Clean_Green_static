@@ -49,7 +49,7 @@ export const CardTitle = styled.h2`
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     font-size: 35px;
   }
 `

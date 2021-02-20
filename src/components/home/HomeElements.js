@@ -34,8 +34,8 @@ export const HeaderCard = styled.div`
   border: 1px solid #000000;
   border-radius: 20px;
 
-  @media screen and (max-width: 650px) {
-    width: 550px;
+  @media screen and (max-width: 770px) {
+    width: 650px;
   }
 `
 
@@ -43,8 +43,8 @@ export const Header = styled.h1`
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
 
-  @media screen and (max-width: 650px) {
-    font-size: 20px;
+  @media screen and (max-width: 770px) {
+    font-size: 25px;
   }
 `
 
@@ -55,8 +55,8 @@ export const Info = styled.li`
   padding-top: 15px;
   width: 600px;
 
-  @media screen and (max-width: 650px) {
-    font-size: 11px;
+  @media screen and (max-width: 770px) {
+    font-size: 14px;
   }
 `
 
@@ -154,6 +154,10 @@ export const ServiceCard = styled.div`
   width: 40vw;
   height: 40vh;
   min-height: 250px;
+
+  @media screen and (max-width: 770px) {
+    height: 20vh;
+  }
 `
 
 export const ServiceTitle = styled.h2`
@@ -161,7 +165,7 @@ export const ServiceTitle = styled.h2`
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     font-size: 25px;
   }
 `
@@ -170,7 +174,7 @@ export const ServiceInfo = styled.li`
   padding-top: 20px;
   font-family: 'Montserrat', sans-serif;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     font-size: 12px;
   }
 `
@@ -180,7 +184,7 @@ export const GreenButton = styled.button`
   font-size: 20px;
   cursor: pointer;
   margin-top: 20px;
-  height: 8vh;
+  height: 45px;
   min-height: 25px;
   width: 100px;
   max-width: 180px;
@@ -192,7 +196,7 @@ export const GreenButton = styled.button`
     background-color: #A3D897;
   }
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     font-size: 15px;
   }
 `
@@ -202,7 +206,7 @@ export const BlueButton = styled.button`
   font-size: 20px;
   cursor: pointer;
   margin-top: 20px;
-  height: 8vh;
+  height: 45px;
   min-height: 25px;
   width: 100px;;
   max-width: 180px;
@@ -214,7 +218,7 @@ export const BlueButton = styled.button`
     background-color: #72C5E4;
   }
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     font-size: 15px;
   }
 `

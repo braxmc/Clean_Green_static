@@ -14,7 +14,7 @@ export const Img = styled.img`
   padding-left: 10px;
   padding-top: 10px;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     font-size: 10vh;
   }
 `
@@ -36,7 +36,7 @@ export const Nav = styled(Link)`
     color: #60BC46;
   }
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     font-size: 14px;
   }
 `

@@ -33,7 +33,7 @@ export const AboutCard = styled.div`
   margin-bottom: 20px;
   padding-bottom: 10px;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     width: 550px;
   }
 `
@@ -43,7 +43,7 @@ export const CardTitle = styled.h1`
   font-size: 40px;
   padding: 10px;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     font-size: 35px;
   }
 `
@@ -56,7 +56,7 @@ export const AboutInfo = styled.p`
   font-size: 16px;
   padding-bottom: 10px;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 770px) {
     font-size: 14px;
   }
 `
