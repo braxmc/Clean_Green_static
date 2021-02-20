@@ -1,6 +1,6 @@
 import React from 'react' 
 
-import { HomeWrap, HeaderWrap, HeaderCard, Header, Ul, Info, ServicesWrap, Regular, Img, ServiceCard, ServiceTitle, ServiceInfo, InfoWrap, Flip, GreenButton, BlueButton, Nav, ContactWrap, ContactTitle, ContactInfo, ContactLinks, Call, Email, Icon } from './HomeElements'
+import { HomeWrap, HeaderWrap, HeaderCard, Header, Info, ServicesWrap, Regular, Img, ServiceCard, ServiceTitle, ServiceInfo, InfoWrap, Flip, GreenButton, BlueButton, Nav, ContactWrap, ContactTitle, ContactInfo, ContactLinks, Call, Email, Icon } from './HomeElements'
 
 import Service1 from '../images/sample2.jpg'
 import Service2 from '../images/sample1.jpg'
@@ -16,11 +16,9 @@ const Home = () => (
       <HeaderWrap>
         <HeaderCard>
           <Header>Utah's Best Cleaning Service, and we're here to prove it!</Header>
-          <Ul>
-          <Info>We are an eco-friendly cleaning service!</Info>
-          <Info>We use products that are not only good for your home, but for the planet as well!</Info>
-          <Info>We offer cleaning services for residential homes, businesses, and post-construction homes.</Info>
-          </Ul>
+          <Info>• We are an eco-friendly cleaning service!</Info>
+          <Info>• We use products that are not only good for your home, but for the planet as well!</Info>
+          <Info>• We offer cleaning services for residential homes, businesses, and post-construction homes.</Info>
         </HeaderCard> 
       </HeaderWrap>
     </HomeWrap>

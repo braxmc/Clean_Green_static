@@ -28,6 +28,7 @@ export const ServicesTitle2 = styled.h3`
   display: flex;
   justify-content: center;
   font-family: 'Oswald', sans-serif;
+
 `
 
 export const ServicesCard = styled.div`
@@ -47,6 +48,10 @@ export const CardTitle = styled.h2`
   justify-content: center;
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
+
+  @media screen and (max-width: 650px) {
+    font-size: 35px;
+  }
 `
 
 export const CardTitle2 = styled.h2`

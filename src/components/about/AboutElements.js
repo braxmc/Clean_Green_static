@@ -32,19 +32,31 @@ export const AboutCard = styled.div`
   border: 2px solid #000;
   margin-bottom: 20px;
   padding-bottom: 10px;
+
+  @media screen and (max-width: 650px) {
+    width: 550px;
+  }
 `
 
 export const CardTitle = styled.h1`
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
   padding: 10px;
+
+  @media screen and (max-width: 650px) {
+    font-size: 35px;
+  }
 `
 
 export const AboutInfo = styled.p`
-  width: 600px;
+  width: 500px;
   font-family: 'Montserrat', sans-serif;
   text-indent: 40px;
   line-height: 25px;
   font-size: 16px;
   padding-bottom: 10px;
+
+  @media screen and (max-width: 650px) {
+    font-size: 14px;
+  }
 `

@@ -13,6 +13,10 @@ export const Img = styled.img`
   height: 15vh;
   padding-left: 10px;
   padding-top: 10px;
+
+  @media screen and (max-width: 650px) {
+    font-size: 10vh;
+  }
 `
 
 export const NavWrap = styled.div`
@@ -30,5 +34,9 @@ export const Nav = styled(Link)`
 
   &:hover {
     color: #60BC46;
+  }
+
+  @media screen and (max-width: 650px) {
+    font-size: 14px;
   }
 `

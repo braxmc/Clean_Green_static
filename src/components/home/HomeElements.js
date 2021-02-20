@@ -19,7 +19,7 @@ export const HeaderWrap = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-
+  width: 100%;
 `
 
 export const HeaderCard = styled.div`
@@ -33,21 +33,31 @@ export const HeaderCard = styled.div`
   width: 800px;
   border: 1px solid #000000;
   border-radius: 20px;
+
+  @media screen and (max-width: 650px) {
+    width: 550px;
+  }
 `
 
 export const Header = styled.h1`
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
-`
 
-export const Ul = styled.ul`
-
+  @media screen and (max-width: 650px) {
+    font-size: 20px;
+  }
 `
 
 export const Info = styled.li`
+  display: flex;
+  justify-content: center;
   font-family: 'Montserrat', sans-serif;
   padding-top: 15px;
   width: 600px;
+
+  @media screen and (max-width: 650px) {
+    font-size: 11px;
+  }
 `
 
 // Everything below here is contact related
@@ -150,11 +160,19 @@ export const ServiceTitle = styled.h2`
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
+
+  @media screen and (max-width: 650px) {
+    font-size: 25px;
+  }
 `
 
 export const ServiceInfo = styled.li`
   padding-top: 20px;
   font-family: 'Montserrat', sans-serif;
+
+  @media screen and (max-width: 650px) {
+    font-size: 12px;
+  }
 `
 
 export const GreenButton = styled.button`
@@ -164,7 +182,7 @@ export const GreenButton = styled.button`
   margin-top: 20px;
   height: 8vh;
   min-height: 25px;
-  width: 14vw;
+  width: 100px;
   max-width: 180px;
   border-radius: 10px;
   border: 1px solid #000;
@@ -172,6 +190,10 @@ export const GreenButton = styled.button`
   
   &:hover{
     background-color: #A3D897;
+  }
+
+  @media screen and (max-width: 650px) {
+    font-size: 15px;
   }
 `
 
@@ -182,7 +204,7 @@ export const BlueButton = styled.button`
   margin-top: 20px;
   height: 8vh;
   min-height: 25px;
-  width: 14vw;
+  width: 100px;;
   max-width: 180px;
   border-radius: 10px;
   border: 1px solid #000;
@@ -190,6 +212,10 @@ export const BlueButton = styled.button`
   
   &:hover{
     background-color: #72C5E4;
+  }
+
+  @media screen and (max-width: 650px) {
+    font-size: 15px;
   }
 `
 
