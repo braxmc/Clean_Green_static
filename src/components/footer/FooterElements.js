@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 
 export const FooterWrap = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  height: 30vh;
+  height: 35vh;
   background-color: #242526;
 `
 
@@ -15,6 +15,7 @@ export const SocialWrap = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-top: 30px;
 `
 
 export const Icon = styled.img`

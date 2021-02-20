@@ -11,7 +11,8 @@ export const ContactWrap = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 78vh;
+  /* height: 78vh; */
+  height: 650px;
   min-height: 400px;
 `
 
