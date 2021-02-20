@@ -34,6 +34,10 @@ export const InfoWrap = styled.div`
 
 export const Icon = styled.img`
   height: 35px;
+
+  @media screen and (max-width: 450px) {
+    height: 22px;
+  }
 `
 
 export const Info = styled.p`
@@ -41,8 +45,12 @@ export const Info = styled.p`
   font-size: 25px;
   padding-left: 10px;
   text-decoration: underline;
+
+  @media screen and (max-width: 450px) {
+    font-size: 18px;
+  }
 `
-export const SocialWrap = styled.div`
+export const SocialCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,10 +58,19 @@ export const SocialWrap = styled.div`
   border: 2px solid #000;
   border-radius: 20px;
   padding: 20px 40px;
+
+  @media screen and (max-width: 450px) {
+    width: 350px;
+    padding: 20px 0;
+  }
 `
 
 export const InfoTitle = styled.h2`
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
   padding-bottom: 10px;
+
+  @media screen and (max-width: 450px) {
+    font-size: 30px;
+  }
 `

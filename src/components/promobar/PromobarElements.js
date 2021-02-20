@@ -18,6 +18,10 @@ export const Promo = styled.h1`
   @media screen and (max-width: 770px) {
     font-size: 15px;
   }
+
+  @media screen and (max-width: 450px) {
+    font-size: 10px;
+  }
 `
 
 export const Number = styled.h1`
@@ -29,6 +33,10 @@ export const Number = styled.h1`
 
   @media screen and (max-width: 770px) {
     font-size: 15px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 10px;
   }
 `
 
@@ -46,5 +54,9 @@ export const Ph = styled.h1`
 
   @media screen and (max-width: 770px) {
     font-size: 22px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 14px;
   }
 `

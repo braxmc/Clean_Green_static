@@ -41,6 +41,12 @@ export const Links = styled(Link)`
   padding-right: 50px;
   padding-left: 50px;
   font-size: 20px;
+
+  @media screen and (max-width: 450px) {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `
 
 export const Cr = styled.p`

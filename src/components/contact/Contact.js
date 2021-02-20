@@ -4,12 +4,12 @@ import Phone from '../images/PhoneIcon.png'
 import Mail from '../images/MailIcon.png'
 import Fb from '../images/fbDark.png'
 
-import { ContactWrap, ContactTitle, InfoWrap, Icon, Info, SocialWrap, InfoTitle } from './ContactElements'
+import { ContactWrap, ContactTitle, InfoWrap, Icon, Info, SocialCard, InfoTitle } from './ContactElements'
 
 const Contact = () => (
   <ContactWrap>
     <ContactTitle>Contact Us</ContactTitle>
-    <SocialWrap>
+    <SocialCard>
       <InfoTitle>Click below to Contact</InfoTitle>
       <InfoWrap>
         <a href='tel:+18019139229'>
@@ -29,7 +29,7 @@ const Contact = () => (
           <Info>Contact us on Facebook</Info>
         </a>
       </InfoWrap>
-    </SocialWrap>
+    </SocialCard>
   </ContactWrap>
 )
 

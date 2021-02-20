@@ -14,8 +14,12 @@ export const Img = styled.img`
   padding-left: 10px;
   padding-top: 10px;
 
-  @media screen and (max-width: 770px) {
-    font-size: 10vh;
+  @media screen and (max-width: 450px) {
+    width: 100px;
+    height: 60px;
+    padding: 0;
+    display: flex;
+    align-self: center;
   }
 `
 
@@ -37,6 +41,11 @@ export const Nav = styled(Link)`
   }
 
   @media screen and (max-width: 770px) {
-    font-size: 14px;
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 10px;
+    padding-right: 20px;
   }
 `

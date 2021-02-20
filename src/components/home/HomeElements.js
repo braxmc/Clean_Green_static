@@ -37,6 +37,10 @@ export const HeaderCard = styled.div`
   @media screen and (max-width: 770px) {
     width: 650px;
   }
+
+  @media screen and (max-width: 450px) {
+    width: 350px;
+  }
 `
 
 export const Header = styled.h1`
@@ -45,6 +49,10 @@ export const Header = styled.h1`
 
   @media screen and (max-width: 770px) {
     font-size: 25px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 14px;
   }
 `
 
@@ -57,6 +65,11 @@ export const Info = styled.li`
 
   @media screen and (max-width: 770px) {
     font-size: 14px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 10px;
+    width: 215px;
   }
 `
 
@@ -76,17 +89,30 @@ export const ContactWrap = styled.div`
 export const ContactTitle = styled.h2`
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
+
+  @media screen and (max-width: 450px) {
+    font-size: 18px;
+  }
 `
 
 export const ContactInfo = styled.p`
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   padding-top: 20px;
+
+  @media screen and (max-width: 450px) {
+    font-size: 14px;
+  }
 `
 
 export const ContactLinks = styled.div`
   display: flex;
   flex-direction: row;
+
+  @media screen and (max-width: 450px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const Call = styled.div`
@@ -121,12 +147,20 @@ export const Regular = styled.div`
   flex-direction: row-reverse;
   background-color: #72C5E4;
   height: 400px;
+
+  @media screen and (max-width: 450px) {
+    height: 300px;
+  }
 `
 
 export const Flip = styled.div`
   display: flex;
   background-color: #A3D897;
   height: 400px;
+
+  @media screen and (max-width: 450px) {
+    height: 300px;
+  }
 `
 
 export const Img = styled.img`
@@ -134,6 +168,10 @@ export const Img = styled.img`
   align-self: center;
   height: 400px;
   width: 50%;
+
+  @media screen and (max-width: 450px) {
+    height: 300px;
+  }
 `
 
 export const InfoWrap = styled.div`
@@ -158,6 +196,7 @@ export const ServiceCard = styled.div`
   @media screen and (max-width: 770px) {
     height: 20vh;
   }
+
 `
 
 export const ServiceTitle = styled.h2`
@@ -168,6 +207,11 @@ export const ServiceTitle = styled.h2`
   @media screen and (max-width: 770px) {
     font-size: 25px;
   }
+
+  @media screen and (max-width: 450px) {
+    font-size: 14px;
+    width: 35vw;
+  }
 `
 
 export const ServiceInfo = styled.li`
@@ -176,6 +220,11 @@ export const ServiceInfo = styled.li`
 
   @media screen and (max-width: 770px) {
     font-size: 12px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 9px;
+    width: 35vw;
   }
 `
 
@@ -199,6 +248,12 @@ export const GreenButton = styled.button`
   @media screen and (max-width: 770px) {
     font-size: 15px;
   }
+
+  @media screen and (max-width: 450px) {
+    height: 30px;
+    font-size: 13px;
+  }
+
 `
 
 export const BlueButton = styled.button`
@@ -220,6 +275,11 @@ export const BlueButton = styled.button`
 
   @media screen and (max-width: 770px) {
     font-size: 15px;
+  }
+
+  @media screen and (max-width: 450px) {
+    height: 30px;
+    font-size: 13px;
   }
 `
 
