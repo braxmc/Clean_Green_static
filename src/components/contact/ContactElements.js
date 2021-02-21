@@ -23,6 +23,11 @@ export const ContactTitle = styled.h1`
   background: linear-gradient(to right, #60BC46, #019DD0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @media screen and (max-width: 450px) {
+    font-size: 45px;
+    padding: 30px 0px;
+  }
 `
 
 export const InfoWrap = styled.div`
