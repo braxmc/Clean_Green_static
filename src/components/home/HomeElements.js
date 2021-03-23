@@ -203,6 +203,8 @@ export const ServiceTitle = styled.h2`
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
+  display: flex;
+  justify-content: center;
 
   @media screen and (max-width: 770px) {
     font-size: 25px;
