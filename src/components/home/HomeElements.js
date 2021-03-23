@@ -203,14 +203,16 @@ export const ServiceTitle = styled.h2`
   padding-top: 20px;
   font-family: 'Oswald', sans-serif;
   font-size: 35px;
-  display: flex;
-  justify-content: center;
 
   @media screen and (max-width: 770px) {
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 25px;
   }
 
   @media screen and (max-width: 450px) {
+    display: flex;
+    justify-content: center;
     font-size: 14px;
     width: 35vw;
   }
@@ -221,6 +223,8 @@ export const ServiceInfo = styled.li`
   font-family: 'Montserrat', sans-serif;
 
   @media screen and (max-width: 770px) {
+    padding-left: 10px;
+    padding-right: 10px;
     font-size: 12px;
   }
 
@@ -238,7 +242,7 @@ export const GreenButton = styled.button`
   margin-top: 20px;
   height: 45px;
   min-height: 25px;
-  width: 100px;
+  width: 150px;
   max-width: 180px;
   border-radius: 10px;
   border: 1px solid #000;
@@ -249,10 +253,12 @@ export const GreenButton = styled.button`
   }
 
   @media screen and (max-width: 770px) {
+    width: 125px;
     font-size: 15px;
   }
 
   @media screen and (max-width: 450px) {
+    width: 100px;
     height: 30px;
     font-size: 13px;
   }
@@ -266,7 +272,7 @@ export const BlueButton = styled.button`
   margin-top: 20px;
   height: 45px;
   min-height: 25px;
-  width: 100px;;
+  width: 150px;
   max-width: 180px;
   border-radius: 10px;
   border: 1px solid #000;
@@ -277,10 +283,12 @@ export const BlueButton = styled.button`
   }
 
   @media screen and (max-width: 770px) {
+    width: 125px;
     font-size: 15px;
   }
 
   @media screen and (max-width: 450px) {
+    width: 100px;
     height: 30px;
     font-size: 13px;
   }
