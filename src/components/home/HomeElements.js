@@ -225,6 +225,7 @@ export const ServiceInfo = styled.li`
   @media screen and (max-width: 450px) {
     font-size: 9px;
     width: 35vw;
+    padding-left: 10px;
   }
 `
 
